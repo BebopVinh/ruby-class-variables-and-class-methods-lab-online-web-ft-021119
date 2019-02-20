@@ -40,7 +40,7 @@ class Song
 
   def self.artist_count
     @@artists.each do |artist|
-      if @@artist_count.has_key? !(artist)
+      if !(@@artist_count.has_key?(artist))
         @@artist_count[artist] = @@artists.count(artist)
       end
     end
