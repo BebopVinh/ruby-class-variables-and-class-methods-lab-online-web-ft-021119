@@ -10,7 +10,6 @@ class Song
     @@count += 1
 
     @artist = song_artist
-
     @@artists << song_artist
 
     @genre = song_genre
@@ -45,6 +44,6 @@ class Song
       end
     end
     @@artist_count
-  end
+  end #end of artist_count Class Method
 
 end #end of Song Class
